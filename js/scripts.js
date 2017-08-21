@@ -1,11 +1,12 @@
 //BACK END LOGIC
 function Destination(location, startDate, endDate, landmarks, notes) {
-    this.location = location;
-    this.startDate = startDate;
-    this.endDate = endDate;
-    this.landmarks = landmarks;
+this.location = location;
+   this.startDate = startDate;
+   this.endDate = endDate;
+   this.landmarks = landmarks;
     this.notes = notes;
 };
+console.log('constructor');
 function resetFields() {
     $("input#location").val("");
     $("input#start-date").val("");
@@ -14,10 +15,15 @@ function resetFields() {
     $("textarea#notes").val("");
 
 };
+console.log('resetfields');
 
 //FRONT END LOGIC
 $(document).ready(function () {
-    
+    console.log('document');
+    $("button#add-landmark").click(function(){
+        $(".extra-landmark").append('<div class="extra-landmark" >'+'<label for="landmarks">' + '<input type="text" size="35px" class="form-control " id="landmarks" >' + '</label>' + '<br />');
+    });
+    console.log('addlandmark');
     $("form#new-destination").submit(function (event) {
         event.preventDefault();
 
@@ -35,7 +41,7 @@ $(document).ready(function () {
             inputtedLandmark,
             inputtedNotes,
         );
-
+console.log('newdestination');
         $("ul#destinations").append("<li><span class='new-location'>" + newDestination.location + "</span></li>");
         
         resetFields();
