@@ -51,9 +51,8 @@ once clicked all the entered information will be visible.
 ## Setup/Installation Requirements
 
 To view the website, 
-* click [Weather Webpage](https://marynganga.github.io/Weather-Webpage/)
-or 
-* copy the link https://marynganga.github.io/Weather-Webpage/ paste it to your browser and load it.  
+* click [Travel Diary Webpage](https://marynganga.github.io/Travel-Diary-Webpage/)
+or https://marynganga.github.io/Travel-Diary-Webpage/ paste it to your browser and load it.  
 
 
 ## Known Bugs
