@@ -21,12 +21,14 @@ once clicked all the entered information will be visible.
 ## Specifications
 
 1. It can display the location entered as a link on submision.
-** Input: Paris
-** Output: Paris(link)
+
+* Input:  Paris
+
+* Output:  _**Paris**_ (link)
 
 2. It can display all of the inputed data on clicking the above link.
 
-** Input: 
+* Input: 
 
           Location: Paris
           Start Date: 15/08/2017
@@ -34,9 +36,9 @@ once clicked all the entered information will be visible.
           LandMarks: The Eiffel Tower
           Notes: It was an amazing travel experience. Must go back.
           
-** On clicking the link outputted after submission,
+* On clicking the link outputted after submission,
 
-** Output: 
+* Output: 
 
            Paris
            Location: Paris
