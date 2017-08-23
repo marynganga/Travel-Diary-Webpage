@@ -4,7 +4,8 @@
 #### By **Mary Ng'ang'a** and **Nelly Cheruiyot**
 
 ## Description
-A webpage where a user can input details from their world travels and view their entries. One can input:
+A webpage where a user can input details from their world travels and view their entries. 
+One can input:
 
 * Location
 
@@ -25,8 +26,9 @@ once clicked all the entered information will be visible.
 
 2. It can display all of the inputed data on clicking the above link.
 
-** Input: Location: Paris
+** Input: 
 
+          Location: Paris
           Start Date: 15/08/2017
           End Date: 29/08/2017
           LandMarks: The Eiffel Tower
@@ -34,8 +36,9 @@ once clicked all the entered information will be visible.
           
 ** On clicking the link outputted after submission,
 
-** Output: Paris
+** Output: 
 
+           Paris
            Location: Paris
            Start Date: 15/08/2017
            End Date: 29/08/2017
